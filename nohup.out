@@ -1,0 +1,16 @@
+DEBUG 2020-08-02 12:46:31:906 main AgentPackagePath : The beacon class location is jar:file:/Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/skywalking-agent.jar!/org/apache/skywalking/apm/agent/core/boot/AgentPackagePath.class. 
+INFO 2020-08-02 12:46:31:908 main SnifferConfigInitializer : Config file found in /Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/config/agent.config. 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.2.RELEASE)
+
+2020-08-02 12:46:37.771  INFO 70826 --- [           main] cn.mycommons.gateway.GatewayApplication  : No active profile set, falling back to default profiles: default
+Error: Unable to access jarfile server1-0.0.1-SNAPSHOT.jar
+Error: Unable to access jarfile server2sh-0.0.1-SNAPSHOT.jar
+DEBUG 2020-08-02 12:50:38:732 main AgentPackagePath : The beacon class location is jar:file:/Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/skywalking-agent.jar!/org/apache/skywalking/apm/agent/core/boot/AgentPackagePath.class. 
+INFO 2020-08-02 12:50:38:734 main SnifferConfigInitializer : Config file found in /Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/config/agent.config. 

@@ -1,0 +1,57 @@
+DEBUG 2020-08-02 12:50:03:790 main AgentPackagePath : The beacon class location is jar:file:/Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/skywalking-agent.jar!/org/apache/skywalking/apm/agent/core/boot/AgentPackagePath.class. 
+INFO 2020-08-02 12:50:03:792 main SnifferConfigInitializer : Config file found in /Users/xiaqiulei/workspace/java-demo/spring-gateway-demo/skywalking/config/agent.config. 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.3.2.RELEASE)
+
+2020-08-02 12:50:08.830  INFO 72866 --- [           main] cn.mycommons.gateway.GatewayApplication  : No active profile set, falling back to default profiles: default
+2020-08-02 12:50:09.653 TRACE 72866 --- [           main] Configuration$OnVerboseDisabledCondition : Condition GatewayAutoConfiguration.OnVerboseDisabledCondition on org.springframework.cloud.gateway.config.GatewayAutoConfiguration$GatewayActuatorConfiguration#gatewayLegacyControllerEndpoint did not match due to NoneNestedConditions 1 matched 0 did not; NestedCondition on GatewayAutoConfiguration.OnVerboseDisabledCondition.VerboseDisabled @ConditionalOnProperty (spring.cloud.gateway.actuator.verbose.enabled) matched
+2020-08-02 12:50:10.209  WARN 72866 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-08-02 12:50:10.372  INFO 72866 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=d6a724c1-a964-36a9-bcf8-84d783dde7f0
+2020-08-02 12:50:10.419  INFO 72866 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-02 12:50:10.422  INFO 72866 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactiveLoadBalancerConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-02 12:50:10.423  INFO 72866 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-02 12:50:10.682  WARN 72866 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-02 12:50:10.682  INFO 72866 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-02 12:50:10.695  WARN 72866 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-08-02 12:50:10.695  INFO 72866 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-08-02 12:50:11.677 DEBUG 72866 --- [           main] o.s.c.gateway.config.GatewayProperties   : Routes supplied from Gateway Properties: [RouteDefinition{id='service1', predicates=[PredicateDefinition{name='Path', args={_genkey_0=/service1/**}}], filters=[FilterDefinition{name='StripPrefix', args={_genkey_0=1}}], uri=lb://service1, order=0, metadata={}}]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2020-08-02 12:50:12.243  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBodyPredicateFactory]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2020-08-02 12:50:12.244  INFO 72866 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2020-08-02 12:50:12.487  WARN 72866 --- [           main] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
+2020-08-02 12:50:12.800  INFO 72866 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 20 endpoint(s) beneath base path '/actuator'
+2020-08-02 12:50:13.049  INFO 72866 --- [           main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-02 12:50:13.777  INFO 72866 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 8000
+2020-08-02 12:50:13.976 DEBUG 72866 --- [oundedElastic-4] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying {_genkey_0=/service1/**} to Path
+2020-08-02 12:50:13.976 DEBUG 72866 --- [oundedElastic-3] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying {_genkey_0=/service1/**} to Path
+2020-08-02 12:50:14.012 DEBUG 72866 --- [oundedElastic-4] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying filter {_genkey_0=1} to StripPrefix
+2020-08-02 12:50:14.013 DEBUG 72866 --- [oundedElastic-3] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying filter {_genkey_0=1} to StripPrefix
+2020-08-02 12:50:14.024  INFO 72866 --- [           main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, gateway gateway 192.168.31.101:8000 register finished
+2020-08-02 12:50:14.025 DEBUG 72866 --- [oundedElastic-3] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition matched: service1
+2020-08-02 12:50:14.025 DEBUG 72866 --- [oundedElastic-4] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition matched: service1
+2020-08-02 12:50:14.051  INFO 72866 --- [           main] cn.mycommons.gateway.GatewayApplication  : Started GatewayApplication in 7.367 seconds (JVM running for 10.367)
+2020-08-02 12:50:14.069 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying {_genkey_0=/service1/**} to Path
+2020-08-02 12:50:14.071 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying filter {_genkey_0=1} to StripPrefix
+2020-08-02 12:50:14.072 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition matched: service1
+2020-08-02 12:50:14.087 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying {_genkey_0=/service1/**} to Path
+2020-08-02 12:50:14.088 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition service1 applying filter {_genkey_0=1} to StripPrefix
+2020-08-02 12:50:14.089 DEBUG 72866 --- [oundedElastic-1] o.s.c.g.r.RouteDefinitionRouteLocator    : RouteDefinition matched: service1
+2020-08-02 12:50:25.895  INFO 72866 --- [extShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'Nacso-Watch-Task-Scheduler'
+2020-08-02 12:50:25.895  INFO 72866 --- [extShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+2020-08-02 12:50:25.980  INFO 72866 --- [extShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.

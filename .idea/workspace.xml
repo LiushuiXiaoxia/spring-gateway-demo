@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="SYNC_PROJECT_BEFORE_BUILD" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1c027832-79e2-4337-b965-02bfbe8a1fae" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/gateway">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fU4Ax6NaRLIzgOI0snt9KjeoDa" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="compactDirectories" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Documents/dev/android_sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/skywalking/plugins" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cn.mycommons.service1.feign" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.mycommons.service1.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/skywalking/plugins" />
+      <recent name="$PROJECT_DIR$/skywalking" />
+      <recent name="$PROJECT_DIR$/service2/src/main/resources" />
+      <recent name="$PROJECT_DIR$/service1/src/main/resources" />
+      <recent name="$PROJECT_DIR$/gateway/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Service1Application">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ITest2FeignApiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="service1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.mycommons.service1.feign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.mycommons.service1.feign" />
+      <option name="MAIN_CLASS_NAME" value="cn.mycommons.service1.feign.ITest2FeignApiTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.mycommons.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Service1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.mycommons.service1.Service1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Service2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.mycommons.service2.Service2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ITest2FeignApiTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.33821222" />
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="groupByServiceGroups" value="false" />
+        </serviceView>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="groupByServiceGroups" value="false" />
+          <option name="viewType" value="service" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="path">
+                  <list>
+                    <option value="Run Dashboard" />
+                    <option value="SpringBootApplicationConfigurationType" />
+                    <option value="SpringBootApplicationConfigurationType/Finished" />
+                    <option value="SpringBootApplicationConfigurationType/GatewayApplication" />
+                  </list>
+                </option>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="groupByServiceGroups" value="false" />
+          <option name="viewType" value="service" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="path">
+                  <list>
+                    <option value="Run Dashboard" />
+                    <option value="SpringBootApplicationConfigurationType" />
+                    <option value="SpringBootApplicationConfigurationType/Finished" />
+                    <option value="SpringBootApplicationConfigurationType/Service2Application" />
+                  </list>
+                </option>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+          <option name="groupByServiceGroups" value="false" />
+          <option name="isSelected" value="true" />
+          <option name="viewType" value="service" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="path">
+                  <list>
+                    <option value="Run Dashboard" />
+                    <option value="SpringBootApplicationConfigurationType" />
+                    <option value="SpringBootApplicationConfigurationType/Finished" />
+                    <option value="SpringBootApplicationConfigurationType/Service1Application" />
+                  </list>
+                </option>
+                <option name="contributor" value="com.intellij.execution.dashboard.RunDashboardServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c027832-79e2-4337-b965-02bfbe8a1fae" name="Default Changelist" comment="" />
+      <created>1596259197212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596259197212</updated>
+      <workItem from="1596259198417" duration="536000" />
+      <workItem from="1596259737602" duration="5989000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="547" y="172" key="#Docker" timestamp="1596283506481">
+      <screen x="48" y="23" width="2000" height="1129" />
+    </state>
+    <state x="547" y="172" key="#Docker/48.23.2000.1129@48.23.2000.1129" timestamp="1596283506481" />
+    <state x="546" y="172" key="#Project_Structure" timestamp="1596342991423">
+      <screen x="44" y="23" width="2004" height="1129" />
+    </state>
+    <state x="546" y="172" key="#Project_Structure/44.23.2004.1129@44.23.2004.1129" timestamp="1596342991423" />
+    <state x="547" y="172" key="#Project_Structure/46.23.2002.1129@46.23.2002.1129" timestamp="1596259294671" />
+    <state width="1950" height="334" key="GridCell.Tab.0.bottom" timestamp="1596345500889">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1950" height="334" key="GridCell.Tab.0.bottom/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500889" />
+    <state width="1913" height="330" key="GridCell.Tab.0.bottom/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345584" />
+    <state width="1913" height="330" key="GridCell.Tab.0.bottom/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487275" />
+    <state width="1950" height="334" key="GridCell.Tab.0.center" timestamp="1596345500889">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1950" height="334" key="GridCell.Tab.0.center/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500889" />
+    <state width="1913" height="330" key="GridCell.Tab.0.center/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345582" />
+    <state width="1913" height="330" key="GridCell.Tab.0.center/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487274" />
+    <state width="1950" height="334" key="GridCell.Tab.0.left" timestamp="1596345500889">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1950" height="334" key="GridCell.Tab.0.left/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500889" />
+    <state width="1913" height="330" key="GridCell.Tab.0.left/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345582" />
+    <state width="1913" height="330" key="GridCell.Tab.0.left/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487274" />
+    <state width="1950" height="334" key="GridCell.Tab.0.right" timestamp="1596345500889">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1950" height="334" key="GridCell.Tab.0.right/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500889" />
+    <state width="1913" height="330" key="GridCell.Tab.0.right/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345583" />
+    <state width="1913" height="330" key="GridCell.Tab.0.right/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487274" />
+    <state width="1913" height="330" key="GridCell.Tab.1.bottom" timestamp="1596345500887">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1913" height="330" key="GridCell.Tab.1.bottom/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500887" />
+    <state width="1913" height="330" key="GridCell.Tab.1.bottom/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345585" />
+    <state width="1913" height="330" key="GridCell.Tab.1.bottom/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487276" />
+    <state width="1913" height="330" key="GridCell.Tab.1.center" timestamp="1596345500887">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1913" height="330" key="GridCell.Tab.1.center/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500887" />
+    <state width="1913" height="330" key="GridCell.Tab.1.center/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345584" />
+    <state width="1913" height="330" key="GridCell.Tab.1.center/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487275" />
+    <state width="1913" height="330" key="GridCell.Tab.1.left" timestamp="1596345500886">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1913" height="330" key="GridCell.Tab.1.left/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500886" />
+    <state width="1913" height="330" key="GridCell.Tab.1.left/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345584" />
+    <state width="1913" height="330" key="GridCell.Tab.1.left/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487275" />
+    <state width="1913" height="330" key="GridCell.Tab.1.right" timestamp="1596345500887">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state width="1913" height="330" key="GridCell.Tab.1.right/43.23.2005.1129@43.23.2005.1129" timestamp="1596345500887" />
+    <state width="1913" height="330" key="GridCell.Tab.1.right/44.23.2004.1129@44.23.2004.1129" timestamp="1596343345585" />
+    <state width="1913" height="330" key="GridCell.Tab.1.right/48.23.2000.1129@48.23.2000.1129" timestamp="1596285487276" />
+    <state x="407" y="66" key="SettingsEditor" timestamp="1596260060816">
+      <screen x="46" y="23" width="2002" height="1129" />
+    </state>
+    <state x="407" y="66" key="SettingsEditor/46.23.2002.1129@46.23.2002.1129" timestamp="1596260060816" />
+    <state width="625" height="529" key="SwitcherDM" timestamp="1596283476912">
+      <screen x="48" y="23" width="2000" height="1129" />
+    </state>
+    <state width="625" height="529" key="SwitcherDM/48.23.2000.1129@48.23.2000.1129" timestamp="1596283476912" />
+    <state x="755" y="296" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596283631818">
+      <screen x="48" y="23" width="2000" height="1129" />
+    </state>
+    <state x="755" y="296" key="com.intellij.testIntegration.createTest.CreateTestDialog/48.23.2000.1129@48.23.2000.1129" timestamp="1596283631818" />
+    <state x="102" y="126" width="1891" height="687" key="new project wizard" timestamp="1596260057277">
+      <screen x="46" y="23" width="2002" height="1129" />
+    </state>
+    <state x="102" y="126" width="1891" height="687" key="new project wizard/46.23.2002.1129@46.23.2002.1129" timestamp="1596260057277" />
+    <state x="624" y="120" width="841" height="1032" key="search.everywhere.popup" timestamp="1596345060592">
+      <screen x="43" y="23" width="2005" height="1129" />
+    </state>
+    <state x="624" y="120" width="841" height="1032" key="search.everywhere.popup/43.23.2005.1129@43.23.2005.1129" timestamp="1596345060592" />
+    <state x="628" y="120" width="838" height="1032" key="search.everywhere.popup/48.23.2000.1129@48.23.2000.1129" timestamp="1596284887815" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+
+####服务网关名称
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          ####开启以服务id去注册中心上获取转发地址
+          enabled: true
+        ###路由策略
+      routes:
+        ### 路由id
+        - id: service1
+          #### 基于lb负载均衡形式转发
+          uri: lb://service1
+          ### 匹配规则
+          predicates:
+            - Path=/service1/**
+          filters:
+            ### 从第几级开始转发
+            - StripPrefix=1
+server:
+  port: 8000
